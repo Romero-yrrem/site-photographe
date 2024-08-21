@@ -204,7 +204,7 @@ section h2 {
     margin: auto;
     display: block;
     max-height: 99%;
-	max-width: 85%;
+	max-width: 80%;
 	position: relative; /* Add position relative */
     top: 50%; /* Add top 50% */
     transform: translate(0%, -50%); /* Add transform */
