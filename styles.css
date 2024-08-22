@@ -135,6 +135,13 @@ section h2 {
     justify-content: space-between; /* Add justify-content: space-between */
     margin-bottom: 1em;
 }
+.large-image {
+	 max-width: 95%; /* Adjust the width as needed */
+    max-height: auto;
+	margin: 0 1em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 
 .portfolio-image {
     max-width: 30%; /* Adjust the width as needed */
@@ -278,6 +285,9 @@ section h2 {
 	.image-container {
         flex-direction: column; /* Change flex-direction to column for screens smaller than 1200px */
     }
+	.image-container-main {
+		flex-direction: column;
+	}
 
     .portfolio-image {
         max-width: 70%; /* Change max-width to 100% for screens smaller than 1200px */
