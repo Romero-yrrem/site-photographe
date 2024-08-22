@@ -136,7 +136,7 @@ section h2 {
     margin-bottom: 1em;
 }
 .large-image {
-	 max-width: 70%; /* Adjust the width as needed */
+	 max-width: 60%; /* Adjust the width as needed */
     max-height: auto;
 	margin: 0 1em;
     border-radius: 5px;
