@@ -305,4 +305,8 @@ section h2 {
         max-width: 60%; /* Change max-width to 100% for screens smaller than 1200px */
         margin: 0 auto 1em; /* Add margin to center the image */
     }
+	.main-image {
+		max-width: 95%;
+		margin: 0 auto 1em;
+	}
 }
