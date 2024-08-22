@@ -136,11 +136,10 @@ section h2 {
     margin-bottom: 1em;
 }
 .large-image {
-	 max-width: 95%; /* Adjust the width as needed */
+	 max-width: 99%; /* Adjust the width as needed */
     max-height: auto;
 	margin: 0 1em;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .portfolio-image {
