@@ -310,5 +310,6 @@ section h2 {
 	}
 	.large-image {
 		max-width: 99%;
+		margin: 0 auto 0em;
 	}
 }
