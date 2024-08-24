@@ -325,6 +325,6 @@ section h2 {
 		margin: 0 auto 0em;
 	}
 	.bio-image {
-		max-width: 50%;
+		width: 50%;
 	}
 }
