@@ -141,7 +141,7 @@ section h2 {
 	justify-content: space-between;
 }
 .bio-image {
-    max-width: 30%; /* Adjust the width as needed */
+    max-width: 40%; /* Adjust the width as needed */
     max-height: auto;
 	margin: 0 1em;
     border-radius: 5px;
