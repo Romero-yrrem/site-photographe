@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://www.facebook.com https://www.instagram.com https://cdnjs.cloudflare.com">
+	<meta name="description" content="Voici ma galerie de photos de portrait et de mode destinée à différentes friperies de Nancy.">
+    <title>Gallerie Portrait Merry Joseph Blondel</title>
+	<link rel="icon" href="logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul id="tabs">
+                 <li><a href="index.html" class="tab-link">Accueil</a></li>
+                <li><a href="street-photo.html" class="tab-link">Street photo</a></li>
+                <li><a class="tab-link active">Portrait</a></li>
+				<li><a href="tarifs.html" class="tab-link">Tarifs</a></li>
+                <li><a href="contact.html" class="tab-link">Bio & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+	<section id="portrait" class="tab-content active">
+            <h2>mode & portraits</h2>
+            <p></p>
+			<div class="image-container-main">
+				<img src="portrait\1.JPG" alt="Street Photo 1" class="main-image">
+				<p class="image-description">Dans la photo de portrait je suis également à la recherche d'authenticité, j'essaye toujours au minimum de faire poser mes modèles, en essayant de déclencher au meilleur moment, le but étant de faire vivre l'image au travers de la personnalité du modèle, de donner une place très importante à sa personnalité, avec un décor et une esthétique en harmonie avec le sujet.</p>
+			</div>
+			<div class="image-container">
+                <img src="portrait\2.JPG" alt="Mode Photo" class="portfolio-image">
+                <img src="portrait\3.JPG" alt="Mode Photo" class="portfolio-image">
+                <img src="portrait\4.JPG" alt="Mode Photo" class="portfolio-image">
+            </div>
+			<div class="image-container">
+                <img src="portrait\5.JPG" alt="Mode Photo" class="portfolio-image">
+                <img src="portrait\6.JPG" alt="Mode Photo" class="portfolio-image">
+                <img src="portrait\7.JPG" alt="Mode Photo" class="portfolio-image">
+            </div>
+			<div class="image-container">
+                <img src="portrait\8.JPG" alt="Mode Photo" class="portfolio-image">
+                <img src="portrait\9.JPG" alt="Mode Photo" class="portfolio-image">
+                <img src="portrait\10.JPG" alt="Mode Photo" class="portfolio-image">
+            </div>
+			<div class="image-container">
+                <img src="portrait\11.JPG" alt="Mode Photo" class="portfolio-image">
+                <img src="portrait\12.JPG" alt="Mode Photo" class="portfolio-image">
+            </div>
+			</section>
+    </main>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100083577760312" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/merry_joseph_blondel/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <!--a href="https://www.twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a-->
+        </div>
+		<p>&copy; 2024 Merry Joseph Blondel</p>
+    </footer>
+
+     <!-- Modal Structure -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

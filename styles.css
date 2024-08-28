@@ -66,13 +66,11 @@ footer {
 
 /* Punk Vintage Styles */
 body {
-    background-image: url('vintage-texture.png'); /* Add your vintage texture image */
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 header, footer {
-    background-image: url('grunge-texture.png'); /* Add your grunge texture image */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -101,6 +99,9 @@ section h2 {
 .tab-link {
     cursor: pointer;
 }
+
+
+
 
 .tab-link.active {
     text-decoration: underline;
@@ -158,30 +159,13 @@ section h2 {
     cursor: pointer;
 }
 
-.street-image {
-    max-width: 30%; /* Adjust the width as needed */
-    max-height: auto;
-	margin: 0 1em;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-}
-
-.mode-image {
-    max-width: 30%; /* Adjust the width as needed */
-    max-height: auto;
-	margin: 0 1em;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-}
-
 .main-image {
     max-width: 60%; /* Adjust the width as needed */
     max-height: auto;
 	margin: 0 1em;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
 }
 
 .main-portrait-image {
@@ -190,6 +174,7 @@ section h2 {
 	margin: 0 13em;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
 }
 
 .image-description {
@@ -275,7 +260,7 @@ section h2 {
 }
 
 /* Media Queries for Responsive Design */
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -295,14 +280,6 @@ section h2 {
 		flex-direction: column;
 	}
     .portfolio-image {
-        max-width: 70%; /* Change max-width to 100% for screens smaller than 1200px */
-        margin: 0 auto 1em; /* Add margin to center the image */
-    }
-    .street-image {
-        max-width: 70%; /* Change max-width to 100% for screens smaller than 1200px */
-        margin: 0 auto 1em; /* Add margin to center the image */
-    }
-	.mode-image {
         max-width: 70%; /* Change max-width to 100% for screens smaller than 1200px */
         margin: 0 auto 1em; /* Add margin to center the image */
     }

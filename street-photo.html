@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://www.facebook.com https://www.instagram.com https://cdnjs.cloudflare.com">
+	<meta name="description" content="Voici la galerie de ma dernière série de photos de rue sur les manifestations politiques des dernières élections.">
+    <title>Gallerie Photo De Rue Merry Joseph Blondel</title>
+	<link rel="icon" href="logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul id="tabs">
+                 <li><a href="index.html" class="tab-link">Accueil</a></li>
+                <li><a class="tab-link active">Street photo</a></li>
+                <li><a href="portrait.html" class="tab-link">Portrait</a></li>
+				<li><a href="tarifs.html" class="tab-link">Tarifs</a></li>
+                <li><a href="contact.html" class="tab-link">Bio & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+	<section id="Street photo" class="tab-content active">
+            <h2>street photo</h2>
+            <BR/>
+			<BR/>
+			<div class="image-container-main">
+				<img src="street/0.JPG" alt="Street Photo 1" class="main-image">
+				<p class="image-description">Ma dernière série de photos prises lors des manifestations avant les élections : j'ai voulu montrer les relations entre les manifestants et les riverains, les motivations et les visions de chacun.</p>
+			</div>
+            <div class="image-container">
+				<img src="street\1.JPG" alt="Street Photo" class="portfolio-image">
+				<img src="street\2.JPG" alt="Street Photo" class="portfolio-image">
+				<img src="street\4.JPG" alt="Street Photo" class="portfolio-image">
+            </div>
+			<div class="image-container">
+				<img src="street\3.JPG" alt="Street Photo" class="portfolio-image">
+				<img src="street\5.JPG" alt="Street Photo" class="portfolio-image">
+				<img src="street\6.JPG" alt="Street Photo" class="portfolio-image">
+            </div>
+			<div class="image-container">
+				<img src="street\7.JPG" alt="Street Photo" class="portfolio-image">
+				<img src="street\8.JPG" alt="Street Photo" class="portfolio-image">
+				<img src="street\9.JPG" alt="Street Photo" class="portfolio-image">
+            </div>
+			<div class="image-container">
+				<img src="street\10.JPG" alt="Street Photo" class="portfolio-image">
+            </div>
+			</section>
+    </main>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100083577760312" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/merry_joseph_blondel/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <!--a href="https://www.twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a-->
+        </div>
+		<p>&copy; 2024 Merry Joseph Blondel</p>
+    </footer>
+
+     <!-- Modal Structure -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
