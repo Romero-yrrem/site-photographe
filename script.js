@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const nextBtn = document.querySelector('.next');
     let currentIndex = 0;
     let images = [];
-
+	
 
     // modale
     document.querySelectorAll('.portfolio-image','.main-portrait-image','.main-image').forEach(img => {
