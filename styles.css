@@ -130,12 +130,13 @@ section h2 {
     justify-content: space-between; /* Add justify-content: space-between */
     margin-bottom: 5em;
 }
+.viewer iframe{
+	aspect-ratio:16/9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 .viewer {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-    justify-content: space-between; /* Add justify-content: space-between */
-    margin-bottom: 5em;
+	width: 100%;
 }
 .image-container {
     display: flex;
