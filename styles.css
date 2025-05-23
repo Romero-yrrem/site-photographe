@@ -13,6 +13,26 @@ header {
     text-align: center;
 }
 
+/* Style pour la vidéo sur PC */
+.desktop-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Style pour la vidéo sur mobile */
+.mobile-video {
+    display: none; /* Masquer la vidéo mobile par défaut */
+}
+
+/* Style pour le contenu de la page */
+.content {
+    position: relative;
+    z-index: 1;
+}
+
 .logo {
     width: 150px; /* Adjust the width as needed */
     height: auto;
@@ -60,10 +80,20 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
     margin-top: 2em; /* Add margin to separate from main content */
 }
 
+.home-page .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.other-page .footer {
+    bottom: 0;
+    width: 100%;
+	padding: 1em 0;
+}
 /* Punk Vintage Styles */
 body {
     background-size: cover;
@@ -296,4 +326,18 @@ section h2 {
 	.acceuil-image {
 		width: 92%;
 	}
+	 /* Masquer la vidéo pour PC */
+    .desktop-video {
+        display: none;
+    }
+
+    /* Afficher la vidéo pour mobile */
+    .mobile-video {
+        display: block;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        z-index: -1;
+    }
 }

@@ -10,13 +10,20 @@
     <link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
-    <header>
-		<a href="https://www.mj-blondel.fr">
-			<img src="logo.png" alt="Logo" class="logo">
-		</a>
-    </header>
+<body class="home-page">
+	 <!-- Vidéo pour PC -->
+    <video autoplay muted loop id="desktopVideo" class="desktop-video">
+        <source src="video.mov" type="video/mp4">
+        Votre navigateur ne supporte pas la balise vidéo.
+    </video>
+
+    <!-- Vidéo pour mobile -->
+    <video autoplay muted loop id="mobileVideo" class="mobile-video">
+        <source src="reel.mov" type="video/mp4">
+        Votre navigateur ne supporte pas la balise vidéo.
+    </video>
     <main>
+		<BR/><BR/><BR/><BR/><BR/>
         <div class="image-acceuil">
             <a href="portrait">
 				<img src="bouton-photo.png" alt="Accueil Image" class="acceuil-image">
@@ -25,9 +32,8 @@
 				<img src="bouton-video.png" alt="Accueil Image" class="acceuil-image">
 			</a>
 		</div>
-		<BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/>
     </main>
-	<footer>
+	<footer class="footer">
         <div class="social-media">
             <a href="https://www.facebook.com/profile.php?id=100083577760312" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/grandmonark?igsh=MW84NXFkZGduOHhveQ==" target="_blank"><i class="fab fa-instagram"></i></a>
