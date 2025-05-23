@@ -155,6 +155,7 @@ section h2 {
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 	cursor: pointer;
+	width: 80%;
 }
 .large-image {
 	 max-width: 60%; /* Adjust the width as needed */
@@ -291,5 +292,8 @@ section h2 {
 	}
 	.viewer {
 		width: 100%;
+	}
+	.acceuil-image {
+		width: 92%;
 	}
 }
