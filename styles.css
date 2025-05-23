@@ -124,19 +124,20 @@ section h2 {
 }
 
 /* Image Styles */
-.image-container-main {
-	display: flex;
-	align-items: center;
-    justify-content: space-between; /* Add justify-content: space-between */
-    margin-bottom: 5em;
-}
 .viewer iframe{
 	aspect-ratio:16/9;
 }
 .viewer {
-	width: 40%;
+	width: 50%;
 }
 .image-container {
+    display: flex;
+	align-items: center;
+    justify-content: space-between; /* Add justify-content: space-between */
+    margin-bottom: 1em;
+}
+.video-container {
+	 flex-direction: column;
     display: flex;
 	align-items: center;
     justify-content: space-between; /* Add justify-content: space-between */
@@ -148,15 +149,9 @@ section h2 {
     justify-content: space-evenly; /* Add justify-content: space-between */
     margin-top: 10em;
 }
-.bio-image {
-    max-width: 30%; /* Adjust the width as needed */
-    max-height: auto;
-	margin: 0 1em;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-}
 .acceuil-image {
 	margin: 0 1em;
+	margin-bottom: 3em;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 	cursor: pointer;
@@ -300,6 +295,9 @@ section h2 {
 	.image-container-main {
 		flex-direction: column;
 	}
+	.image-acceuil {
+		flex-direction: column;
+}
     .portfolio-image {
         max-width: 70%; /* Change max-width to 100% for screens smaller than 1200px */
         margin: 0 auto 1em; /* Add margin to center the image */
@@ -318,5 +316,8 @@ section h2 {
 	}
 	.bio-image {
 		max-width: 50%;
+	}
+	.viewer {
+		width: 100%;
 	}
 }
