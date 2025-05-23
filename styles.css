@@ -172,24 +172,6 @@ section h2 {
     cursor: pointer;
 }
 
-.main-image {
-    max-width: 60%; /* Adjust the width as needed */
-    max-height: auto;
-	margin: 0 1em;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-	cursor: pointer;
-}
-
-.main-portrait-image {
-    max-width: 30%; /* Adjust the width as needed */
-    max-height: auto;
-	margin: 0 13em;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-	cursor: pointer;
-}
-
 .image-description {
     font-size: 1em;
     color: #333;
@@ -292,18 +274,11 @@ section h2 {
 	.image-container {
         flex-direction: column; /* Change flex-direction to column for screens smaller than 1200px */
     }
-	.image-container-main {
-		flex-direction: column;
-	}
 	.image-acceuil {
 		flex-direction: column;
 }
     .portfolio-image {
         max-width: 70%; /* Change max-width to 100% for screens smaller than 1200px */
-        margin: 0 auto 1em; /* Add margin to center the image */
-    }
-	.main-portrait-image {
-        max-width: 60%; /* Change max-width to 100% for screens smaller than 1200px */
         margin: 0 auto 1em; /* Add margin to center the image */
     }
 	.main-image {
@@ -313,9 +288,6 @@ section h2 {
 	.large-image {
 		max-width: 99%;
 		margin: 0 auto 0em;
-	}
-	.bio-image {
-		max-width: 50%;
 	}
 	.viewer {
 		width: 100%;
