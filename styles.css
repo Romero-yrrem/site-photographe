@@ -134,7 +134,7 @@ section h2 {
 	aspect-ratio:16/9;
 }
 .viewer {
-	width: 90%;
+	width: 40%;
 }
 .image-container {
     display: flex;
@@ -142,12 +142,24 @@ section h2 {
     justify-content: space-between; /* Add justify-content: space-between */
     margin-bottom: 1em;
 }
+.image-acceuil {
+    display: flex;
+	align-items: center;
+    justify-content: space-evenly; /* Add justify-content: space-between */
+    margin-top: 10em;
+}
 .bio-image {
     max-width: 30%; /* Adjust the width as needed */
     max-height: auto;
 	margin: 0 1em;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.acceuil-image {
+	margin: 0 1em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
 }
 .large-image {
 	 max-width: 60%; /* Adjust the width as needed */
@@ -188,6 +200,7 @@ section h2 {
     color: #333;
     text-align: center;
 }
+
 
 /* Modal Styles */
 .modal {

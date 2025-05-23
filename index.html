@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://www.facebook.com https://www.instagram.com https://cdnjs.cloudflare.com">
-	<meta name="description" content="Je suis photographe de rue et de portrait dans le secteur de Nancy et ses alentours, et voici mon portfolio où je présente mon travail.">
-    <title>Merry Joseph Blondel Photographe</title>
+	<meta name="description" content="Vidéaste et photographe sur Nancy, je vous propose ici mon portfolio">
+    <title>Merry Brugger</title>
 	<link rel="icon" href="logo2.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -13,46 +13,24 @@
 <body>
     <header>
         <img src="logo.png" alt="Logo" class="logo">
-        <nav>
-            <ul id="tabs">
-                <li><a href="https://mj-blondel.fr" class="tab-link active">Accueil</a></li>
-                <li><a href="street-photo" class="tab-link">Street photo</a></li>
-                <li><a href="portrait" class="tab-link">Portrait</a></li>
-				<li><a href="video" class="tab-link">Video</a></li>
-				<li><a href="tarifs" class="tab-link">Tarifs</a></li>
-                <li><a href="contact" class="tab-link">Bio & Contact</a></li>
-            </ul>
-        </nav>
+       
     </header>
     <main>
         <section id="accueil" class="tab-content active">
-            <h2>Accueil</h2>
+            <h2></h2>
             <p></p>
-            <div class="image-container">
-                <img src="street\1.JPG" alt="Accueil Image" class="main-portrait-image">
-                <p class="image-description">La spontanéité dans la photographie m'a toujours attiré, j'en ai fait une des valeurs principales de mon travail, c'est de cette façon que j'aime photographier lors d'évènements notamment, j'aime mettre beaucoup d'éléments dans une photo et leur donner du sens en les faisant fonctionner ensemble dans l'espace et le temps.</p>
-            </div>
-			 <div class="image-container">
-                <p class="image-description">Ayant pour sujet principal l'humain, je fais également beaucoup de photo de portrait, m'étant formé à la lumière artificielle mais ayant également beaucoup travaillé en lumière naturelle, j'ai développé un style à la fois minimaliste et surréaliste en jouant avec les perspectives et en donnant une grande place au ciel dans mes compositions.</p>
-				<img src="portrait\2.JPG" alt="Accueil Image" class="main-portrait-image">
-            </div>
+            <div class="image-acceuil">
+                 <a href="portrait">
+					<img src="bouton-photo.png" alt="Accueil Image" class="acceuil-image">
+				</a>
+                <a href="video">
+					<img src="bouton-video.png" alt="Accueil Image" class="acceuil-image">
+				</a>
+			</div>
+			<div class="image-acceuil">
+			</div>
         </section>
     </main>
-    <footer>
-        <div class="social-media">
-			<a href="https://www.facebook.com/profile.php?id=100083577760312" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/merry_joseph_blondel/" target="_blank"><i class="fab fa-instagram"></i></a>
-		</div>
-		<p>&copy; 2024 Merry Joseph Blondel</p>
-    </footer>
-
-     <!-- Modal Structure -->
-    <div id="imageModal" class="modal">
-        <span class="close">&times;</span>
-        <span class="prev">&#10094;</span>
-        <span class="next">&#10095;</span>
-        <img class="modal-content" id="modalImg">
-    </div>
 
     <script src="script.js"></script>
 </body>
