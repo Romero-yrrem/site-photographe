@@ -304,9 +304,9 @@ section h2 {
     }
 	.image-container {
         flex-direction: column; /* Change flex-direction to column for screens smaller than 1200px */
-    }
+    /*}
 	.image-acceuil {
-		flex-direction: column;
+		flex-direction: column;*/
 }
     .portfolio-image {
         max-width: 70%; /* Change max-width to 100% for screens smaller than 1200px */
@@ -323,8 +323,10 @@ section h2 {
 	.viewer {
 		width: 100%;
 	}
-	.acceuil-image {
-		width: 92%;
+	/*.acceuil-image {
+		width: 50%;
+		align-items: center;
+		justify-content: space-between;
 	}
 	 /* Masquer la vidéo pour PC */
     .desktop-video {
