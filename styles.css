@@ -304,10 +304,11 @@ section h2 {
     }
 	.image-container {
         flex-direction: column; /* Change flex-direction to column for screens smaller than 1200px */
-    /*}
+    }/*
 	.image-acceuil {
-		flex-direction: column;*/
-}
+		flex-direction: column;
+	}*/
+
     .portfolio-image {
         max-width: 70%; /* Change max-width to 100% for screens smaller than 1200px */
         margin: 0 auto 1em; /* Add margin to center the image */
@@ -328,7 +329,7 @@ section h2 {
 		align-items: center;
 		justify-content: space-between;
 	}
-	 /* Masquer la vidéo pour PC */
+	  Masquer la vidéo pour PC */
     .desktop-video {
         display: none;
     }
@@ -339,7 +340,7 @@ section h2 {
         position: fixed;
         right: 0;
         bottom: 0;
-        height: 100%;
+        min-width: 100%;
         z-index: -1;
     }
 }
