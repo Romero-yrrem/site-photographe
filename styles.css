@@ -167,7 +167,7 @@ section h2 {
     margin-bottom: 1em;
 }
 .video-container {
-	 flex-direction: column;
+	flex-direction: column;
     display: flex;
 	align-items: center;
     justify-content: space-between; /* Add justify-content: space-between */
@@ -340,7 +340,7 @@ section h2 {
         position: fixed;
         right: 0;
         bottom: 0;
-        min-width: 100%;
+        width: 100%;
         z-index: -1;
     }
 }
